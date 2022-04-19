@@ -22,7 +22,7 @@
 #
 
 # The Ubuntu image that should be used as the basis for the guacd image
-ARG UBUNTU_BASE_IMAGE=21.10
+ARG UBUNTU_BASE_IMAGE=22.04
 
 # Use Debian as base for the build
 FROM ubuntu:${UBUNTU_BASE_IMAGE} AS builder
